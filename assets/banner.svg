@@ -21,6 +21,100 @@
     <clipPath id="frame"><rect x="0" y="0" width="1200" height="270" rx="14"/></clipPath>
   </defs>
 
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="270" fill="url(#bg)"/>
+    <rect width="1200" height="270" fill="url(#glow)"/>
+
+    <path d="M620 92h520M620 148h520M620 204h520" stroke="#1B3557" stroke-width="1" opacity="0.30" stroke-dasharray="3 9"/>
+    <g fill="#1B3557" opacity="0.55">
+      <circle cx="96" cy="42" r="2"/><circle cx="212" cy="238" r="2"/><circle cx="486" cy="52" r="2"/>
+      <circle cx="392" cy="244" r="2"/><circle cx="560" cy="150" r="2"/>
+    </g>
+
+    <path fill="url(#area)" opacity="1"
+      d="M620 196C652.5 196 652.5 176 685 176C717.5 176 717.5 202 750 202C782.5 202 782.5 152 815 152C847.5 152 847.5 166 880 166C912.5 166 912.5 120 945 120C977.5 120 977.5 134 1010 134C1042.5 134 1042.5 86 1075 86C1107.5 86 1107.5 62 1140 62C1170 62 1175 52 1200 44L1200 250L620 250Z">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.54;1" dur="3.5s" fill="freeze"/>
+    </path>
+
+    <path fill="none" stroke="#4C8FFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"
+      stroke-dasharray="1500" stroke-dashoffset="0"
+      d="M620 196C652.5 196 652.5 176 685 176C717.5 176 717.5 202 750 202C782.5 202 782.5 152 815 152C847.5 152 847.5 166 880 166C912.5 166 912.5 120 945 120C977.5 120 977.5 134 1010 134C1042.5 134 1042.5 86 1075 86C1107.5 86 1107.5 62 1140 62C1170 62 1175 52 1200 44">
+      <animate attributeName="stroke-dashoffset" values="1500;1500;0" keyTimes="0;0.15;1" dur="3.3s"
+               calcMode="spline" keySplines="0 0 1 1;0.32 0.62 0.24 1" fill="freeze"/>
+    </path>
+
+    <g fill="#070F1C" stroke="#4C8FFF" stroke-width="2">
+      <circle cx="620" cy="196" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.677;1" dur="1.55s" fill="freeze"/></circle>
+      <circle cx="685" cy="176" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.722;1" dur="1.80s" fill="freeze"/></circle>
+      <circle cx="750" cy="202" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.756;1" dur="2.05s" fill="freeze"/></circle>
+      <circle cx="815" cy="152" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.783;1" dur="2.30s" fill="freeze"/></circle>
+      <circle cx="880" cy="166" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.804;1" dur="2.55s" fill="freeze"/></circle>
+      <circle cx="945" cy="120" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.821;1" dur="2.80s" fill="freeze"/></circle>
+      <circle cx="1010" cy="134" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.836;1" dur="3.05s" fill="freeze"/></circle>
+      <circle cx="1075" cy="86" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.848;1" dur="3.30s" fill="freeze"/></circle>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.859;1" dur="3.55s" fill="freeze"/>
+      <circle cx="1140" cy="62" r="6" fill="none" stroke="#4C8FFF" stroke-width="1.4" opacity="0.55">
+        <animate attributeName="r" values="6;17" dur="2.8s" begin="3.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.55;0" dur="2.8s" begin="3.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1140" cy="62" r="5" fill="#4C8FFF"/>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.158;1" dur="0.95s" fill="freeze"/>
+      <circle cx="66" cy="72" r="3" fill="#4C8FFF"/>
+      <text x="80" y="77" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2.6" fill="#A9B7C6" fill-opacity="0.78">BUSINESS INTELLIGENCE · ANALYTICS · ALAGOAS</text>
+    </g>
+
+    <text x="64" y="140" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="50" font-weight="700" letter-spacing="-1.2">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.273;1" dur="1.10s" fill="freeze"/>
+      <tspan fill="#F5F8FB">Fabricio </tspan><tspan fill="#4C8FFF">Almeida</tspan>
+    </text>
+
+    <text x="64" y="176" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#A9B7C6">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.36;1" dur="1.25s" fill="freeze"/>Assessor Especial de Projetos</text>
+
+    <text x="64" y="200" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#4A5B70">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.43;1" dur="1.40s" fill="freeze"/>Secretaria de Estado da Governança Corporativa · Alagoas</text>
+
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.484;1" dur="1.55s" fill="freeze"/>
+      <rect x="64" y="220" width="2" height="18" fill="url(#rule)"/>
+      <text x="80" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="0.6" fill="#A9B7C6" fill-opacity="0.9">SQL · Python · Power BI · TypeScript</text>
+      <rect x="392" y="222" width="8" height="14" fill="#4C8FFF">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1.15s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <rect x="0" y="0" width="1200" height="270" rx="14" fill="none" stroke="#1B3557" stroke-opacity="0.7"/>
+  </g>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270" role="img" aria-label="Fabricio Almeida — Dados, BI e plataformas para o setor publico">
+  <title>Fabricio Almeida — Dados, BI e plataformas para o setor publico</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070F1C"/>
+      <stop offset="0.55" stop-color="#0B1729"/>
+      <stop offset="1" stop-color="#0D1E36"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.28" r="0.62">
+      <stop offset="0" stop-color="#4C8FFF" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#4C8FFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4C8FFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#4C8FFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4C8FFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#4C8FFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="270" rx="14"/></clipPath>
+  </defs>
+
   <style>
     .s  { font-family: Inter, "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
     .m  { font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, "Liberation Mono", monospace; }
