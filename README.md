@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Fabricioalmeida23/Fabricioalmeida23/main/assets/banner.svg" alt="Fabricio Almeida — Dados, BI e plataformas para o setor público" width="100%">
+  <img src="https://fabricioalmeida23.github.io/Fabricioalmeida23/assets/banner.svg" alt="Fabricio Almeida — Dados, BI e plataformas para o setor público" width="100%">
 </p>
 
 <p align="center">
