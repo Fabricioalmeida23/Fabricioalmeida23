@@ -1,8 +1,5 @@
-<h1 align="center">Fabricio Almeida</h1>
-
 <p align="center">
-  <b>Dados, BI e plataformas para o setor público</b><br>
-  Assessor Especial de Projetos · Secretaria de Estado da Governança Corporativa — Alagoas, Brasil
+  <img src="https://raw.githubusercontent.com/Fabricioalmeida23/Fabricioalmeida23/main/assets/banner.svg" alt="Fabricio Almeida — Dados, BI e plataformas para o setor público" width="100%">
 </p>
 
 <p align="center">
