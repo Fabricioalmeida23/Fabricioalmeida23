@@ -1,94 +1,96 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270" role="img" aria-label="Fabricio Almeida — Dados, BI e plataformas para o setor publico">
   <title>Fabricio Almeida — Dados, BI e plataformas para o setor publico</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070F1C"/>
-      <stop offset="0.55" stop-color="#0B1729"/>
-      <stop offset="1" stop-color="#0D1E36"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.78" cy="0.28" r="0.62">
-      <stop offset="0" stop-color="#4C8FFF" stop-opacity="0.20"/>
-      <stop offset="1" stop-color="#4C8FFF" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#4C8FFF" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#4C8FFF" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#4C8FFF" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#4C8FFF" stop-opacity="0"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070F1C"/><stop offset="0.55" stop-color="#0B1729"/><stop offset="1" stop-color="#0D1E36"/></linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.28" r="0.62"><stop offset="0" stop-color="#4C8FFF" stop-opacity="0.18"/><stop offset="1" stop-color="#4C8FFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4C8FFF" stop-opacity="0.26"/><stop offset="1" stop-color="#4C8FFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4C8FFF" stop-opacity="0.9"/><stop offset="1" stop-color="#4C8FFF" stop-opacity="0"/></linearGradient>
     <clipPath id="frame"><rect x="0" y="0" width="1200" height="270" rx="14"/></clipPath>
   </defs>
-
   <g clip-path="url(#frame)">
     <rect width="1200" height="270" fill="url(#bg)"/>
     <rect width="1200" height="270" fill="url(#glow)"/>
-
-    <path d="M620 92h520M620 148h520M620 204h520" stroke="#1B3557" stroke-width="1" opacity="0.30" stroke-dasharray="3 9"/>
-    <g fill="#1B3557" opacity="0.55">
-      <circle cx="96" cy="42" r="2"/><circle cx="212" cy="238" r="2"/><circle cx="486" cy="52" r="2"/>
-      <circle cx="392" cy="244" r="2"/><circle cx="560" cy="150" r="2"/>
+    <g fill="#1B3557" opacity="0.5"><circle cx="96" cy="42" r="2"/><circle cx="212" cy="238" r="2"/><circle cx="486" cy="52" r="2"/><circle cx="392" cy="244" r="2"/><circle cx="560" cy="150" r="2"/></g>
+    <g>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.7750;0.8750;1" dur="12.0s" repeatCount="indefinite"/>
+    <g>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0333;0.0833;1" dur="12.0s" repeatCount="indefinite"/>
+    <path d="M620 76h580M620 126h580M620 176h580" stroke="#1B3557" stroke-width="1" opacity="0.45" stroke-dasharray="3 9"/>
+    <path d="M620 216h580" stroke="#1B3557" stroke-width="1" opacity="0.7"/>
+    <text x="606" y="80" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70">120</text>
+    <text x="606" y="130" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70">80</text>
+    <text x="606" y="180" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70">40</text>
+    <text x="606" y="220" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70">0</text>
     </g>
-
-    <path fill="url(#area)" opacity="1"
-      d="M620 196C652.5 196 652.5 176 685 176C717.5 176 717.5 202 750 202C782.5 202 782.5 152 815 152C847.5 152 847.5 166 880 166C912.5 166 912.5 120 945 120C977.5 120 977.5 134 1010 134C1042.5 134 1042.5 86 1075 86C1107.5 86 1107.5 62 1140 62C1170 62 1175 52 1200 44L1200 250L620 250Z">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.54;1" dur="3.5s" fill="freeze"/>
+    <g>
+    <text x="624" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" fill="#4A5B70"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0500;0.0917;1" dur="12.0s" repeatCount="indefinite"/>Δ ÍNDICE</text>
+    <text x="710" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#4C8FFF" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0917;0.1125;0.1917;0.2125;1" dur="12.0s" repeatCount="indefinite"/>+12,4%</text>
+    <text x="710" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#4C8FFF" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1917;0.2125;0.2917;0.3125;1" dur="12.0s" repeatCount="indefinite"/>+18,7%</text>
+    <text x="710" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#4C8FFF" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2917;0.3125;0.3917;0.4125;1" dur="12.0s" repeatCount="indefinite"/>+24,1%</text>
+    <text x="710" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#4C8FFF" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3917;0.4125;0.4917;0.5125;1" dur="12.0s" repeatCount="indefinite"/>+31,6%</text>
+    <text x="710" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#4C8FFF" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4917;0.5125;1" dur="12.0s" repeatCount="indefinite"/>+38,2%</text>
+    </g>
+    <path fill="url(#area)" opacity="0" d="M620 196C652.5 196 652.5 176 685 176C717.5 176 717.5 202 750 202C782.5 202 782.5 152 815 152C847.5 152 847.5 166 880 166C912.5 166 912.5 120 945 120C977.5 120 977.5 134 1010 134C1042.5 134 1042.5 86 1075 86C1107.5 86 1107.5 62 1140 62C1170.0 62 1170.0 44 1200 44L1200 216L620 216Z">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1250;0.2333;1" dur="12.0s" repeatCount="indefinite"/>
     </path>
-
-    <path fill="none" stroke="#4C8FFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"
-      stroke-dasharray="1500" stroke-dashoffset="0"
-      d="M620 196C652.5 196 652.5 176 685 176C717.5 176 717.5 202 750 202C782.5 202 782.5 152 815 152C847.5 152 847.5 166 880 166C912.5 166 912.5 120 945 120C977.5 120 977.5 134 1010 134C1042.5 134 1042.5 86 1075 86C1107.5 86 1107.5 62 1140 62C1170 62 1175 52 1200 44">
-      <animate attributeName="stroke-dashoffset" values="1500;1500;0" keyTimes="0;0.15;1" dur="3.3s"
-               calcMode="spline" keySplines="0 0 1 1;0.32 0.62 0.24 1" fill="freeze"/>
+    <path fill="none" stroke="#4C8FFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1500" stroke-dashoffset="1500" d="M620 196C652.5 196 652.5 176 685 176C717.5 176 717.5 202 750 202C782.5 202 782.5 152 815 152C847.5 152 847.5 166 880 166C912.5 166 912.5 120 945 120C977.5 120 977.5 134 1010 134C1042.5 134 1042.5 86 1075 86C1107.5 86 1107.5 62 1140 62C1170.0 62 1170.0 44 1200 44">
+    <animate attributeName="stroke-dashoffset" values="1500;1500;0;0" keyTimes="0;0.0292;0.2667;1" dur="12.0s" calcMode="spline" keySplines="0 0 1 1;0.32 0.62 0.24 1;0 0 1 1" repeatCount="indefinite"/>
     </path>
-
     <g fill="#070F1C" stroke="#4C8FFF" stroke-width="2">
-      <circle cx="620" cy="196" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.677;1" dur="1.55s" fill="freeze"/></circle>
-      <circle cx="685" cy="176" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.722;1" dur="1.80s" fill="freeze"/></circle>
-      <circle cx="750" cy="202" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.756;1" dur="2.05s" fill="freeze"/></circle>
-      <circle cx="815" cy="152" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.783;1" dur="2.30s" fill="freeze"/></circle>
-      <circle cx="880" cy="166" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.804;1" dur="2.55s" fill="freeze"/></circle>
-      <circle cx="945" cy="120" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.821;1" dur="2.80s" fill="freeze"/></circle>
-      <circle cx="1010" cy="134" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.836;1" dur="3.05s" fill="freeze"/></circle>
-      <circle cx="1075" cy="86" r="3.6"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.848;1" dur="3.30s" fill="freeze"/></circle>
+    <circle cx="620" cy="196" r="3.6" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0792;0.1083;1" dur="12.0s" repeatCount="indefinite"/></circle>
+    <circle cx="685" cy="176" r="3.6" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1033;0.1325;1" dur="12.0s" repeatCount="indefinite"/></circle>
+    <circle cx="750" cy="202" r="3.6" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1275;0.1567;1" dur="12.0s" repeatCount="indefinite"/></circle>
+    <circle cx="815" cy="152" r="3.6" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1517;0.1808;1" dur="12.0s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="166" r="3.6" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1758;0.2050;1" dur="12.0s" repeatCount="indefinite"/></circle>
+    <circle cx="945" cy="120" r="3.6" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2000;0.2292;1" dur="12.0s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="134" r="3.6" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2242;0.2533;1" dur="12.0s" repeatCount="indefinite"/></circle>
+    <circle cx="1075" cy="86" r="3.6" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2483;0.2775;1" dur="12.0s" repeatCount="indefinite"/></circle>
     </g>
-
     <g>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.859;1" dur="3.55s" fill="freeze"/>
-      <circle cx="1140" cy="62" r="6" fill="none" stroke="#4C8FFF" stroke-width="1.4" opacity="0.55">
-        <animate attributeName="r" values="6;17" dur="2.8s" begin="3.6s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.55;0" dur="2.8s" begin="3.6s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="1140" cy="62" r="5" fill="#4C8FFF"/>
+    <text x="685" y="163" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4C8FFF" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1158;0.1408;1" dur="12.0s" repeatCount="indefinite"/>+12</text>
+    <text x="750" y="189" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1400;0.1650;1" dur="12.0s" repeatCount="indefinite"/>−6</text>
+    <text x="815" y="139" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4C8FFF" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1642;0.1892;1" dur="12.0s" repeatCount="indefinite"/>+21</text>
+    <text x="880" y="153" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1883;0.2133;1" dur="12.0s" repeatCount="indefinite"/>−5</text>
+    <text x="945" y="107" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4C8FFF" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2125;0.2375;1" dur="12.0s" repeatCount="indefinite"/>+24</text>
+    <text x="1010" y="121" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2367;0.2617;1" dur="12.0s" repeatCount="indefinite"/>−4</text>
+    <text x="1075" y="73" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4C8FFF" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2608;0.2858;1" dur="12.0s" repeatCount="indefinite"/>+28</text>
     </g>
-
     <g>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.158;1" dur="0.95s" fill="freeze"/>
-      <circle cx="66" cy="72" r="3" fill="#4C8FFF"/>
-      <text x="80" y="77" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2.6" fill="#A9B7C6" fill-opacity="0.78">BUSINESS INTELLIGENCE · ANALYTICS · ALAGOAS</text>
+    <text x="620" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0875;0.1125;1" dur="12.0s" repeatCount="indefinite"/>01</text>
+    <text x="685" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1117;0.1367;1" dur="12.0s" repeatCount="indefinite"/>02</text>
+    <text x="750" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1358;0.1608;1" dur="12.0s" repeatCount="indefinite"/>03</text>
+    <text x="815" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1600;0.1850;1" dur="12.0s" repeatCount="indefinite"/>04</text>
+    <text x="880" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1842;0.2092;1" dur="12.0s" repeatCount="indefinite"/>05</text>
+    <text x="945" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2083;0.2333;1" dur="12.0s" repeatCount="indefinite"/>06</text>
+    <text x="1010" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2325;0.2575;1" dur="12.0s" repeatCount="indefinite"/>07</text>
+    <text x="1075" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2567;0.2817;1" dur="12.0s" repeatCount="indefinite"/>08</text>
     </g>
-
-    <text x="64" y="140" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="50" font-weight="700" letter-spacing="-1.2">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.273;1" dur="1.10s" fill="freeze"/>
-      <tspan fill="#F5F8FB">Fabricio </tspan><tspan fill="#4C8FFF">Almeida</tspan>
+    <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2792;0.3125;1" dur="12.0s" repeatCount="indefinite"/>
+    <circle cx="1140" cy="62" r="6" fill="none" stroke="#4C8FFF" stroke-width="1.4" opacity="0.55">
+    <animate attributeName="r" values="6;18" dur="2.4s" begin="3.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;0" dur="2.4s" begin="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1140" cy="62" r="5" fill="#4C8FFF"/>
+    </g>
+    </g>
+    <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.158;1" dur="0.95s" fill="freeze"/>
+    <circle cx="66" cy="72" r="3" fill="#4C8FFF"/>
+    <text x="80" y="77" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2.6" fill="#A9B7C6" fill-opacity="0.78">BUSINESS INTELLIGENCE · ANALYTICS · ALAGOAS</text>
+    </g>
+    <text x="64" y="140" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="50" font-weight="700" letter-spacing="-1.2" opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.273;1" dur="1.10s" fill="freeze"/>
+    <tspan fill="#F5F8FB">Fabricio </tspan><tspan fill="#4C8FFF">Almeida</tspan>
     </text>
-
-    <text x="64" y="176" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#A9B7C6">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.36;1" dur="1.25s" fill="freeze"/>Assessor Especial de Projetos</text>
-
-    <text x="64" y="200" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#4A5B70">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.43;1" dur="1.40s" fill="freeze"/>Secretaria de Estado da Governança Corporativa · Alagoas</text>
-
-    <g>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.484;1" dur="1.55s" fill="freeze"/>
-      <rect x="64" y="220" width="2" height="18" fill="url(#rule)"/>
-      <text x="80" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="0.6" fill="#A9B7C6" fill-opacity="0.9">SQL · Python · Power BI · TypeScript</text>
-      <rect x="392" y="222" width="8" height="14" fill="#4C8FFF">
-        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1.15s" repeatCount="indefinite"/>
-      </rect>
+    <text x="64" y="176" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#A9B7C6" opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.36;1" dur="1.25s" fill="freeze"/>Assessor Especial de Projetos</text>
+    <text x="64" y="200" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#4A5B70" opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.43;1" dur="1.40s" fill="freeze"/>Secretaria de Estado da Governança Corporativa · Alagoas</text>
+    <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.484;1" dur="1.55s" fill="freeze"/>
+    <rect x="64" y="220" width="2" height="18" fill="url(#rule)"/>
+    <text x="80" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="0.6" fill="#A9B7C6" fill-opacity="0.9">SQL · Python · Power BI · TypeScript</text>
+    <rect x="392" y="222" width="8" height="14" fill="#4C8FFF"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1.15s" repeatCount="indefinite"/></rect>
     </g>
-
     <rect x="0" y="0" width="1200" height="270" rx="14" fill="none" stroke="#1B3557" stroke-opacity="0.7"/>
   </g>
 </svg>
